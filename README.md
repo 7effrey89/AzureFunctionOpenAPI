@@ -1,8 +1,14 @@
-# Adding tools (Actions) to AI Agents in Azure AI Foundry
-The following Azure Function serves as a sample API that can be called through an Agent in Azure Foundry.
+# Azure Function Sample API for Azure Foundry Agent
+This repository contains an Azure Function that serves as a sample API, designed to be called through an Agent in Azure Foundry. The function demonstrates how to integrate Azure Functions with Azure Foundry, providing a practical example for developers.
 
-## FamilyNameGenerator
-This azure function can return a name from a list if no "name" parameter is given. If a name parameter is given then that is returned.
+## Features
+* Sample API Endpoint: A simple API endpoint that can be invoked by an Agent in Azure Foundry.
+* Integration with Azure Foundry: Demonstrates how to set up and configure the Azure Function to work seamlessly with Azure Foundry.
+* Scalable and Serverless: Leverages the power of Azure Functions to provide a scalable and serverless solution.
+* Easy to Deploy: Includes deployment scripts and instructions to help you get started quickly
+
+## Azure Function: FamilyNameGenerator
+This C# code defines an Azure Function named FamilyNameGenerator. When the function is triggered via an HTTP request, it will return a personalized greeting if a "name" is provided as input parameter, or a random family name if not.
 
 ## Pre-requisite:
 - .net 8 SDK installed
