@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FunctionAppWithOpenAPI": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7120",
+      "launchBrowser": false
+    }
+  }
+}
