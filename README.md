@@ -1,8 +1,8 @@
-# FamilyNameGenerator
-
+# Adding tools (Actions) to AI Agents in Azure AI Foundry
 The following Azure Function serves as a sample API that can be called through an Agent in Azure Foundry.
 
-The function itself can return a name from a list if no "name" parameter is given. If a name parameter is given then that is returned.
+## FamilyNameGenerator
+This azure function can return a name from a list if no "name" parameter is given. If a name parameter is given then that is returned.
 
 ## Pre-requisite:
 - .net 8 SDK installed
