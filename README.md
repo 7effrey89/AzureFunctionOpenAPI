@@ -121,4 +121,5 @@ Function worker: .Net 8 LTS, Function: Http trigger with OpenAPI
 
 
 Additional Resources:
-https://thecodeblogger.com/2022/11/03/adding-swagger-page-to-azure-functions-project/
+* https://thecodeblogger.com/2022/11/03/adding-swagger-page-to-azure-functions-project/
+* https://github.com/Azure-Samples/azure-functions-ai-services-agent-python
